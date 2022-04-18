@@ -22,7 +22,7 @@ docker build . -t final
 docker run --gpus all -v $(pwd)/.:/source/. -it final /bin/bash
 ```
 
-### Step 3. Insider the container, run train.py
+### Step 3. Inside the container, run train.py
 ```
 python3 train.py
 ```
