@@ -14,7 +14,7 @@ Winter 2022 UCI CS273A Machine Learning Final Project
 ## Run the program
 ### Step 1. Build the image 
 ```
-cd CIFAR10_UCI_CS273A_Final_Project
+cd cifar10-uci-cs273a-final-project
 docker build . -t final
 ```
 ### Step 2. Run the container with gpu and mount all project to the container
